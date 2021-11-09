@@ -92,12 +92,12 @@ function App() {
               <h2 className='mt-5'>My Order</h2>
               <MyOrder></MyOrder>
             </PrivateRoute>
-            <Route path='/admin'>
+            <PrivateRoute path='/admin'>
               <h2 className='mt-5'>Admin</h2>
               <div className='admin'>
                 <Admin></Admin>
               </div>
-            </Route>
+            </PrivateRoute>
             <Route path='/login'>
               <Login></Login>
             </Route>

@@ -4,9 +4,9 @@ import React from "react";
 import "./Admin.css";
 import { useState } from "react";
 import { Col, Container, ListGroup, Row } from "react-bootstrap";
-import AddService from "../Services/AddService";
 import ManageServices from "./ManageServices/ManageServices";
 import ManageOrders from "./ManageOrders/ManageOrders";
+import AddService from "./AddService/AddService";
 
 const Admin = () => {
   const [control, setControl] = useState("add_service");
