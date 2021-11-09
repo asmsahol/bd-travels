@@ -1,0 +1,14 @@
+/** @format */
+
+.more {
+  border-radius: 5px;
+  border: 1px solid green;
+}
+.more-btn {
+  text-decoration: none;
+  color: white;
+}
+.more-btn:hover {
+  text-decoration: none;
+  color: rgb(182, 22, 22);
+}

@@ -1,0 +1,8 @@
+/** @format */
+
+.admin_list li {
+  list-style: none;
+  background-color: black;
+  margin: 10px;
+  cursor: pointer;
+}

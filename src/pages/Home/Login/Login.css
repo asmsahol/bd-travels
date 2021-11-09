@@ -1,0 +1,38 @@
+/** @format */
+
+.log_in_google {
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid blue;
+}
+.log_in_google:hover {
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(182, 22, 22);
+  border: 1px solid blue;
+}
+
+.log_in {
+  background-color: green;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid green;
+}
+.log_in:hover {
+  background-color: green;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: rgb(182, 22, 22);
+  border: 1px solid green;
+}
+.login_from {
+  width: 50%;
+  margin-top: 70px;
+}
+.login-mail {
+  padding: 12px;
+}

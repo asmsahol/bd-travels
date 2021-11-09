@@ -1,0 +1,33 @@
+/** @format */
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 40px;
+}
+
+.admin {
+}
+.service {
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+.button {
+  text-decoration: none;
+  color: white;
+}
+.bd-btn a:hover {
+  color: rgb(182, 22, 22);
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .services {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 40px;
+    margin-bottom: 0;
+  }
+  .mobile-div {
+    display: flex;
+  }
+}

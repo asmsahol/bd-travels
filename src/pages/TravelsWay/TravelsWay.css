@@ -1,0 +1,11 @@
+/** @format */
+
+.travels-way {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 10px;
+}
+
+.t-way {
+  margin: 20px;
+}

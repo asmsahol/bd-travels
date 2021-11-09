@@ -1,0 +1,61 @@
+/** @format */
+
+.menu {
+  margin-right: 18px !important;
+  padding: 10px;
+  background-color: green !important;
+  color: white;
+}
+.my-nav-link a {
+  color: white;
+}
+.menu:hover {
+  color: rgb(182, 22, 22) !important;
+  padding: 10px;
+}
+.logout {
+  color: white !important;
+  padding: 0 15px;
+  background-color: red;
+  border-radius: 5px;
+  height: 45px;
+  border: 1px solid red;
+}
+.logout:hover {
+  color: white !important;
+  padding: 0 15px;
+  background-color: rgb(207, 41, 41);
+  border-radius: 5px;
+  height: 45px;
+  border: 1px solid rgb(207, 41, 41);
+}
+.place-order {
+  color: white !important;
+  padding: 10px;
+  background-color: green;
+  border-radius: 5px;
+}
+.title {
+  color: green;
+  font-weight: bold;
+}
+.title:hover {
+  color: rgb(182, 22, 22);
+  font-weight: bold;
+  padding-top: 0px;
+}
+.mobile-div {
+  height: 45px;
+}
+.my-nav {
+  background-color: tomato !important;
+}
+.login-name-photo {
+  display: flex;
+  color: green;
+}
+.login-photo {
+  border-radius: 50%;
+  width: 25%;
+  margin: -20px 5px 5px 5px;
+}
