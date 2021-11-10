@@ -18,7 +18,7 @@ const Header = () => {
         <Container>
           <div className='mobile-div'>
             <Navbar.Brand className='title' href='/home'>
-              <h3 className='head-title'>BD Travel</h3>
+              <h3 className='head-title'>BD Travels</h3>
             </Navbar.Brand>
           </div>
           <div className='mobile-div'>
@@ -58,9 +58,11 @@ const Header = () => {
                 )}
               </Nav.Item>
               <Nav.Item>
-                <Link className='nav-link menu place-order' to='/order'>
-                  My Order
-                </Link>
+                {user?.email && (
+                  <Link className='nav-link menu place-order' to='/order'>
+                    My Order
+                  </Link>
+                )}
               </Nav.Item>
               <Nav.Item>
                 {user?.email && (
