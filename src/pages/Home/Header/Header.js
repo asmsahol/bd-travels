@@ -58,7 +58,7 @@ const Header = () => {
           </Nav.Item>
           <Nav.Item>
             {user?.email && (
-              <Link className='nav-link menu place-order' to='/admin'>
+              <Link className='nav-link menu place-order admin' to='/admin'>
                 Admin
               </Link>
             )}

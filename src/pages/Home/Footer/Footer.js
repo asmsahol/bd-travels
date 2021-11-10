@@ -20,7 +20,7 @@ const Footer = () => {
             <Col xs={12} md={12} className='pt-3 mb-5'>
               <div className='mt-5'>
                 <h2>Send Yous Message</h2>
-                <form className='py-5' onSubmit={handleSubmit(onSubmit)}>
+                <form className='py-5 px-2' onSubmit={handleSubmit(onSubmit)}>
                   <input
                     className='my-2 form-input'
                     {...register("name")}

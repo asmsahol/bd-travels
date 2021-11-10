@@ -69,6 +69,13 @@
   font-size: 40px;
   margin: 0px 0px 30px 0px;
 }
+.head-title:hover {
+  font-size: 30px;
+  color: rgb(182, 22, 22) !important;
+  cursor: pointer;
+}
+
+/* For Mobile */
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .navbar-expand .navbar-nav {
@@ -92,8 +99,7 @@
   .head-title {
     font-size: 30px;
   }
-  .head-title:hover {
-    font-size: 30px;
-    color: rgb(182, 22, 22) !important;
+  .login-name-photo {
+    display: contents;
   }
 }
