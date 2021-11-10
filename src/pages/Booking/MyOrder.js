@@ -29,7 +29,7 @@ const MyOrder = () => {
   };
   const orders = myOrder.filter(order => order?.email === user?.email);
   return (
-    <div className='services'>
+    <div className='services mobile_services'>
       {orders.map(order => (
         <Card
           className='service shadow-sm p-3 mb-5 bg-body rounded'

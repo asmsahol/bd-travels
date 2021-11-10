@@ -5,9 +5,6 @@
   grid-template-columns: repeat(4, 1fr);
   margin: 40px;
 }
-
-.admin {
-}
 .service {
   margin-bottom: 40px;
   text-decoration: none;

@@ -94,7 +94,7 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path='/admin'>
               <h2 className='mt-5'>Admin</h2>
-              <div className='admin'>
+              <div>
                 <Admin></Admin>
               </div>
             </PrivateRoute>

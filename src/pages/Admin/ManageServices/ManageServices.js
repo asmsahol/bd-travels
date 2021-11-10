@@ -1,6 +1,7 @@
 /** @format */
 
 import Button from "@restart/ui/esm/Button";
+import "./ManageServices.css";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -16,7 +17,7 @@ const ManageServices = () => {
       });
   }, []);
   return (
-    <div className='ml-3'>
+    <div className='mx-2 manage-services'>
       <h2>Manage All Service</h2>
       <Table striped bordered hover>
         <thead>

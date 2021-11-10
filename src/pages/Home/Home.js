@@ -1,6 +1,7 @@
 /** @format */
 
 import React, { useEffect, useState } from "react";
+import "./Home.css";
 import Services from "../Services/Services";
 import TravelsWay from "../TravelsWay/TravelsWay";
 import More from "./More/More";

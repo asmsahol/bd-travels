@@ -20,6 +20,7 @@ const Booking = props => {
   } = useForm();
   const onSubmit = data => {
     data.status = "Pending";
+    data.email = email;
     fetch("https://pure-falls-70781.herokuapp.com/booking", {
       method: "POST",
       headers: { "content-type": "application/json" },
@@ -29,12 +30,12 @@ const Booking = props => {
     alert("Order Successful");
   };
   return (
-    <div className='booking-section'>
-      <div>
+    <div className='booking-section order_service'>
+      <div className=''>
         {service.map(singleService => (
-          <Container>
+          <div>
             <h2 className='m-5'>Welcome to {singleService.name} Tour</h2>
-            <CardGroup className='m-5'>
+            <CardGroup className='my-5 mx-2'>
               <Card>
                 <Card.Img variant='top' src={singleService.img} />
                 <Card.Body>
@@ -44,7 +45,7 @@ const Booking = props => {
                 </Card.Body>
               </Card>
             </CardGroup>
-          </Container>
+          </div>
         ))}
       </div>
       {service.map(singleService => (

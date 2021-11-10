@@ -2,8 +2,15 @@
 
 .footer {
   background-color: rgb(55, 85, 55);
-  height: 100px;
+  height: 100%;
+  overflow: hidden;
 }
 .footer-text {
   padding-top: 35px;
+}
+.copy-right {
+  border-top: 5px solid rgb(202, 83, 83);
+}
+.form-input {
+  width: 100%;
 }

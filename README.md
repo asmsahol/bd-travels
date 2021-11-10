@@ -2,7 +2,7 @@
 
 # Travel Website in Bangladesh
 
-This is Travel Website. The Live Site Link is "https://bd-travel-c4f84.web.app/".
+This is Travel Website. The Site Name "BD Travels" The Live Site Link is "https://bd-travel-c4f84.web.app/".
 
 ## Available This Site
 

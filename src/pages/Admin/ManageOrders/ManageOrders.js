@@ -34,14 +34,14 @@ const ManageOrders = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = data => {};
   return (
-    <div className='ml-3'>
+    <div className='px-2'>
       <h2>Manage All Orders</h2>
       <Table striped bordered hover>
         <thead>
           <tr>
             <th>Serial No.</th>
             <th>Date</th>
-            <th>Service ID</th>
+            <th>Email</th>
             <th>Service Name</th>
             <th>Price</th>
             <th>Status</th>
@@ -54,7 +54,7 @@ const ManageOrders = () => {
             <tr>
               <td>{orders.findIndex(or => or._id === order._id) + 1}</td>
               <td>{order.date}</td>
-              <td>{order._id}</td>
+              <td>{order.email}</td>
               <td>{order.service}</td>
               <td>{order.price}</td>
               <td>
